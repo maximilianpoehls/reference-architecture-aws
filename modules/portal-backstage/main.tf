@@ -45,7 +45,7 @@ locals {
 # in-cluster postgres
 
 module "backstage_postgres" {
-  source = "github.com/humanitec-architecture/resource-packs-in-cluster?ref=v2024-06-05//humanitec-resource-defs/postgres/basic"
+  source = "github.com/humanitec-architecture/resource-packs-in-cluster?ref=v2024-09-18//humanitec-resource-defs/postgres/basic"
 
   prefix = local.res_def_prefix
 }

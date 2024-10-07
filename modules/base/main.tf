@@ -4,6 +4,7 @@ locals {
   tags = {
     Terraform   = "true"
     Environment = var.environment
+    Project     = "idp-poc-humanitec"
   }
 }
 
